@@ -75,7 +75,7 @@ if __name__ == '__main__':
     # Load users from file
     script_dir = os.path.dirname(os.path.abspath(__file__))
     users_file = os.path.join(script_dir, 'users.txt')
-    output_file = os.path.join(script_dir, 'output.txt')
+    output_file = os.path.join(script_dir, 'output_merge.txt')
     users = load_users(users_file)
     
     # Sort users and measure time
@@ -85,17 +85,13 @@ if __name__ == '__main__':
     
     # Write to output file
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(f"Original ({len(users)} users):\n")
-        for user in users:
-            f.write(f"  Age: {user['age']:3}, First Name: {user['first_name']:10}, Last Name: {user['last_name']:10}\n")
-        
-        f.write(f"\nSorted by Age → First Name → Last Name:\n")
+        f.write(f"Sorted by Age → First Name → Last Name:\n")
         for user in sorted_users:
             f.write(f"  Age: {user['age']:3}, First Name: {user['first_name']:10}, Last Name: {user['last_name']:10}\n")
         
         f.write(f"\nSort completed in {sort_time:.6f} seconds\n")
     
-    print(f"Output written to output.txt")
+    print(f"Output written to output_merge.txt")
     print(f"Sorted {len(users)} users in {sort_time:.6f} seconds")
     
     # Performance testing with varying dataset sizes
@@ -120,26 +116,3 @@ if __name__ == '__main__':
         times.append(elapsed)
         print(f"  {size:5} users: {elapsed:.6f} seconds")
     
-    # Chart 1: Time vs Number of Users (Linear Scale)
-    plt.figure(figsize=(10, 6))
-    plt.plot(test_sizes, times, marker='o', linewidth=2, markersize=8, color='blue')
-    plt.xlabel('Number of Users')
-    plt.ylabel('Time (seconds)')
-    plt.title('Merge Sort Performance: Time vs Number of Users')
-    plt.grid(True, alpha=0.3)
-    plt.savefig(os.path.join(script_dir, 'performance_linear.png'), dpi=300, bbox_inches='tight')
-    plt.close()
-    print("\nExported: performance_linear.png")
-    
-    # Chart 2: Time vs Number of Users (Log Scale)
-    plt.figure(figsize=(10, 6))
-    plt.loglog(test_sizes, times, marker='o', linewidth=2, markersize=8, color='red')
-    plt.xlabel('Number of Users (log scale)')
-    plt.ylabel('Time (seconds, log scale)')
-    plt.title('Merge Sort Performance: Time vs Number of Users (Log-Log Scale)')
-    plt.grid(True, alpha=0.3, which='both')
-    plt.savefig(os.path.join(script_dir, 'performance_loglog.png'), dpi=300, bbox_inches='tight')
-    plt.close()
-    print("Exported: performance_loglog.png")
-    
-    print("\nAll charts exported successfully!")

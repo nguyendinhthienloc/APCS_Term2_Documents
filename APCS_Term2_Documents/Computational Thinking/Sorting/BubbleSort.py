@@ -55,11 +55,7 @@ if __name__ == '__main__':
     
     # Write to output file
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(f"Original ({len(users)} users):\n")
-        for user in users:
-            f.write(f"  Age: {user['age']:3}, First Name: {user['first_name']:10}, Last Name: {user['last_name']:10}\n")
-        
-        f.write(f"\nSorted by Age → First Name → Last Name:\n")
+        f.write(f"Sorted by Age → First Name → Last Name:\n")
         for user in sorted_users:
             f.write(f"  Age: {user['age']:3}, First Name: {user['first_name']:10}, Last Name: {user['last_name']:10}\n")
         
