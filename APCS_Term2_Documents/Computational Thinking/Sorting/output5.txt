@@ -1,0 +1,22 @@
+First 5 users - Sorted by Age → First Name → Last Name
+
+=== MERGE SORT STATISTICS ===
+Time: 0.000014600 seconds
+Comparisons: 8
+Writes: 12
+Auxiliary Memory (max elements): 5
+Recursion Depth: 3
+
+=== BUBBLE SORT STATISTICS ===
+Time: 0.000005700 seconds
+Comparisons: 10
+Swaps: 5
+Auxiliary Memory (max elements): 1
+Recursion Depth: 0
+
+=== SORTED DATA ===
+  Age:  35, First Name: San       , Last Name: Vo        
+  Age:  50, First Name: Nam       , Last Name: Phan      
+  Age:  52, First Name: Van       , Last Name: Nguyen    
+  Age:  53, First Name: Vinh      , Last Name: Dang      
+  Age:  55, First Name: San       , Last Name: Pham      

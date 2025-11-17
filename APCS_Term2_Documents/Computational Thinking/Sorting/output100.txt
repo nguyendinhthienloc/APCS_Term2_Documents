@@ -1,0 +1,117 @@
+First 100 users - Sorted by Age → First Name → Last Name
+
+=== MERGE SORT STATISTICS ===
+Time: 0.000167400 seconds
+Comparisons: 545
+Writes: 672
+Auxiliary Memory (max elements): 100
+Recursion Depth: 7
+
+=== BUBBLE SORT STATISTICS ===
+Time: 0.000603500 seconds
+Comparisons: 4,905
+Swaps: 2,520
+Auxiliary Memory (max elements): 1
+Recursion Depth: 0
+
+=== SORTED DATA ===
+  Age:  18, First Name: Huong     , Last Name: Nguyen    
+  Age:  19, First Name: Binh      , Last Name: Vu        
+  Age:  21, First Name: Hanh      , Last Name: Ho        
+  Age:  21, First Name: Phuc      , Last Name: Pham      
+  Age:  23, First Name: Cuong     , Last Name: Dang      
+  Age:  23, First Name: Huong     , Last Name: Vu        
+  Age:  23, First Name: Lan       , Last Name: Do        
+  Age:  24, First Name: Tai       , Last Name: Le        
+  Age:  25, First Name: Chau      , Last Name: Hoang     
+  Age:  25, First Name: Viet      , Last Name: Ho        
+  Age:  26, First Name: Thu       , Last Name: Tran      
+  Age:  27, First Name: Quynh     , Last Name: Phan      
+  Age:  29, First Name: Giang     , Last Name: Ngo       
+  Age:  29, First Name: Long      , Last Name: Vo        
+  Age:  30, First Name: Hung      , Last Name: Duong     
+  Age:  30, First Name: Loc       , Last Name: Ly        
+  Age:  30, First Name: Tin       , Last Name: Bui       
+  Age:  31, First Name: Mai       , Last Name: Nguyen    
+  Age:  32, First Name: An        , Last Name: Vo        
+  Age:  32, First Name: Cuong     , Last Name: Le        
+  Age:  32, First Name: Nam       , Last Name: Nguyen    
+  Age:  33, First Name: Dung      , Last Name: Phan      
+  Age:  33, First Name: Nhan      , Last Name: Vo        
+  Age:  34, First Name: An        , Last Name: Hoang     
+  Age:  34, First Name: My        , Last Name: Hoang     
+  Age:  35, First Name: Duc       , Last Name: Ho        
+  Age:  35, First Name: Gia       , Last Name: Vo        
+  Age:  35, First Name: Hanh      , Last Name: Nguyen    
+  Age:  35, First Name: Khanh     , Last Name: Pham      
+  Age:  35, First Name: San       , Last Name: Vo        
+  Age:  35, First Name: Van       , Last Name: Ly        
+  Age:  36, First Name: Son       , Last Name: Ho        
+  Age:  36, First Name: Thuy      , Last Name: Duong     
+  Age:  36, First Name: Tuyen     , Last Name: Ho        
+  Age:  37, First Name: My        , Last Name: Hoang     
+  Age:  37, First Name: Xuan      , Last Name: Ly        
+  Age:  38, First Name: Vinh      , Last Name: Ho        
+  Age:  38, First Name: Yen       , Last Name: Bui       
+  Age:  40, First Name: Khanh     , Last Name: Phan      
+  Age:  40, First Name: Nga       , Last Name: Tran      
+  Age:  40, First Name: Thuy      , Last Name: Vo        
+  Age:  40, First Name: Trang     , Last Name: Ngo       
+  Age:  42, First Name: Binh      , Last Name: Ngo       
+  Age:  42, First Name: Linh      , Last Name: Bui       
+  Age:  42, First Name: Viet      , Last Name: Hoang     
+  Age:  43, First Name: Trang     , Last Name: Do        
+  Age:  43, First Name: Vy        , Last Name: Pham      
+  Age:  44, First Name: Kim       , Last Name: Le        
+  Age:  44, First Name: Quan      , Last Name: Bui       
+  Age:  44, First Name: Quang     , Last Name: Pham      
+  Age:  44, First Name: Son       , Last Name: Hoang     
+  Age:  44, First Name: Trung     , Last Name: Phan      
+  Age:  45, First Name: Kim       , Last Name: Ly        
+  Age:  45, First Name: Lan       , Last Name: Bui       
+  Age:  45, First Name: Nhan      , Last Name: Bui       
+  Age:  46, First Name: An        , Last Name: Phan      
+  Age:  46, First Name: Chau      , Last Name: Vo        
+  Age:  46, First Name: Giang     , Last Name: Bui       
+  Age:  46, First Name: Nhan      , Last Name: Phan      
+  Age:  46, First Name: Phuong    , Last Name: Tran      
+  Age:  46, First Name: Tuyen     , Last Name: Phan      
+  Age:  46, First Name: Vy        , Last Name: Bui       
+  Age:  48, First Name: San       , Last Name: Ho        
+  Age:  49, First Name: Tai       , Last Name: Pham      
+  Age:  50, First Name: Minh      , Last Name: Bui       
+  Age:  50, First Name: Nam       , Last Name: Phan      
+  Age:  50, First Name: Nga       , Last Name: Ly        
+  Age:  50, First Name: Uyen      , Last Name: Dang      
+  Age:  51, First Name: Quan      , Last Name: Le        
+  Age:  51, First Name: Uyen      , Last Name: Tran      
+  Age:  52, First Name: Bao       , Last Name: Vu        
+  Age:  52, First Name: Van       , Last Name: Nguyen    
+  Age:  52, First Name: Vy        , Last Name: Ngo       
+  Age:  53, First Name: Khoa      , Last Name: Do        
+  Age:  53, First Name: Son       , Last Name: Tran      
+  Age:  53, First Name: Tu        , Last Name: Bui       
+  Age:  53, First Name: Vinh      , Last Name: Dang      
+  Age:  53, First Name: Vy        , Last Name: Vo        
+  Age:  54, First Name: Mai       , Last Name: Tran      
+  Age:  55, First Name: San       , Last Name: Pham      
+  Age:  55, First Name: Thi       , Last Name: Nguyen    
+  Age:  55, First Name: Van       , Last Name: Duong     
+  Age:  56, First Name: Kim       , Last Name: Bui       
+  Age:  57, First Name: San       , Last Name: Ngo       
+  Age:  57, First Name: Trung     , Last Name: Nguyen    
+  Age:  58, First Name: My        , Last Name: Ngo       
+  Age:  59, First Name: Nhi       , Last Name: Duong     
+  Age:  60, First Name: Nhan      , Last Name: Vo        
+  Age:  60, First Name: Quan      , Last Name: Vo        
+  Age:  60, First Name: Tuyen     , Last Name: Hoang     
+  Age:  61, First Name: Duc       , Last Name: Hoang     
+  Age:  61, First Name: Tai       , Last Name: Le        
+  Age:  61, First Name: Thuy      , Last Name: Le        
+  Age:  62, First Name: Gia       , Last Name: Hoang     
+  Age:  62, First Name: Hai       , Last Name: Le        
+  Age:  63, First Name: Phuong    , Last Name: Hoang     
+  Age:  63, First Name: Thinh     , Last Name: Ly        
+  Age:  63, First Name: Viet      , Last Name: Tran      
+  Age:  64, First Name: Gia       , Last Name: Bui       
+  Age:  64, First Name: Thi       , Last Name: Tran      

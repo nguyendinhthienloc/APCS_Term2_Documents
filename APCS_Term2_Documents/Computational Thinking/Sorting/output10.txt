@@ -1,0 +1,27 @@
+First 10 users - Sorted by Age → First Name → Last Name
+
+=== MERGE SORT STATISTICS ===
+Time: 0.000048600 seconds
+Comparisons: 23
+Writes: 34
+Auxiliary Memory (max elements): 10
+Recursion Depth: 4
+
+=== BUBBLE SORT STATISTICS ===
+Time: 0.000010600 seconds
+Comparisons: 42
+Swaps: 27
+Auxiliary Memory (max elements): 1
+Recursion Depth: 0
+
+=== SORTED DATA ===
+  Age:  23, First Name: Cuong     , Last Name: Dang      
+  Age:  23, First Name: Lan       , Last Name: Do        
+  Age:  26, First Name: Thu       , Last Name: Tran      
+  Age:  35, First Name: San       , Last Name: Vo        
+  Age:  44, First Name: Son       , Last Name: Hoang     
+  Age:  50, First Name: Nam       , Last Name: Phan      
+  Age:  52, First Name: Van       , Last Name: Nguyen    
+  Age:  53, First Name: Vinh      , Last Name: Dang      
+  Age:  55, First Name: San       , Last Name: Pham      
+  Age:  55, First Name: Thi       , Last Name: Nguyen    
