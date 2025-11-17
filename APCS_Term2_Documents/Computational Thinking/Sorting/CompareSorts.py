@@ -21,23 +21,6 @@ def load_users(filename):
     return users
 
 
-def generate_test_data(size):
-    """Generate random test data"""
-    import random
-    first_names = ['An', 'Binh', 'Cuong', 'Dung', 'Hai', 'Hoa', 'Hung', 'Khanh', 
-                   'Lan', 'Linh', 'Long', 'Mai', 'Minh', 'Nam', 'Nga', 'Nhi', 
-                   'Phuong', 'Quan', 'San', 'Tam', 'Thi', 'Trang', 'Trung', 'Tu']
-    last_names = ['Nguyen', 'Tran', 'Le', 'Pham', 'Hoang', 'Phan', 'Vu', 'Vo']
-    
-    data = []
-    for i in range(size):
-        data.append({
-            'age': (i % 48) + 18,
-            'first_name': first_names[i % len(first_names)],
-            'last_name': last_names[i % len(last_names)]
-        })
-    return data
-
 
 def benchmark_sorting(users_data):
     # Diverse test sizes from 5 to 5000
